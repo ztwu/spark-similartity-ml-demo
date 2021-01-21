@@ -31,7 +31,7 @@ object pearsonCorrelationSimilarity {
 
   def main(args: Array[String]): Unit = {
     val vector:Vector[Double] = Vector(5, 8, 3, 6, 9, 4)
-    val vector2:Vector[Double] = Vector(5, 2, 6, 3)
+    val vector2:Vector[Double] = Vector(10, 16, 6, 12, 18, 8)
     val score = pearsonCorrelationSimilarity(vector.toArray, vector2.toArray)
     println(score, vector, vector2)
 
